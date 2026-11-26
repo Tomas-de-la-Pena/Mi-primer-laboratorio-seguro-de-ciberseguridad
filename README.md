@@ -8,7 +8,7 @@ Creé la máquina virtual `Ubuntu-Lab-Seguridad` en VirtualBox y configuré el A
 
 ## 2. Cuenta de usuario creada
 
-![](2-Cuenta%20de%20usuario.png)
+![](2-Cuenta%20de%20usuario%20creada.png)
 
 Mediante `adduser` y la verificación con `id` y `/etc/passwd`, creé la cuenta estándar sin privilegios **`usuario_estandar`** (`uid=1001`), separada de mi cuenta administradora (`uid=1000`). De este modo aplico el principio de mínimo privilegio para realizar las prácticas diarias sin operar como `root`/`admin`, impidiendo la escalada de privilegios o la toma de control total del sistema si se ejecuta un archivo malicioso.
 
